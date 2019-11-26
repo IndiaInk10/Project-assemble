@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Similar Google</title>
+        <style>
+            @import url('Similar Google.css');
+        </style>
+    </head>
+    <body>
+        <header class="header">
+                <span id="hMiddleRight"><a id="hNoUL" target="_self" href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></span>
+                <span id="hMiddleRight"><a id="hNoUL" target="_self" href="https://www.google.co.kr/imghp?hl=ko&tab=wi&ogbl">이미지</a></span>
+                <span id="hMiddleRight"><a target="googleAppIframe" href="googleApp.html"><div class="googleApp" title="Google 앱"></div></a></span>
+                <span id="hMiddleRight"><button type="button" onclick="location.href='https://accounts.google.com/ServiceLogin/signinchooser?hl=ko&passive=true&continue=https%3A%2F%2Fwww.google.com%2F%3Fhl%3Dko&flowName=GlifWebSignIn&flowEntry=ServiceLogin' ">로그인</button></span>
+        </header>
+        <section class="section">
+            <div class="logoAndSearch">
+                <iframe id="logo" width="280" height="158" src="https://www.youtube.com/embed/COwMysZnru8?autoplay=1&amp;loop=1;playlist=COwMysZnru8&mute=1&ps=blogger&showinfo=0&controls=0&cc_load_policy=0&iv_load_policy=3&rel=0&fs=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div id="search">
+                    <table border="0">
+                        <tbody>
+                            <tr>
+                                <td><div id="GMG"><img style="height:43px;" src="googleMagnifyingGlass.png"></div></td>
+                                <td><form method=get action="http://www.google.co.kr/search" target="_self" ><input id="sSearch" title="검색" type=text name=q size=25 maxlength=255 value=""><button id="bButton" style="position: relative; top: 35px; left: 3px;" type="submit">Google 검색</button></form></td>
+                                <td><div id="insert"><img title="입력 도구" src="googleKeyboard.png"></div></td>
+                                <td><div id="voice"><img title="음성 검색" style="width: 24px; height: 24px" src="googleMic.png"></div></td>
+                            </tr>
+                            <tr><td><button id="bButton" style="width: 140px; position: relative; top: -4.5px; left: 275px;" type="button" onclick="location.href='https://www.google.com/doodles/' ">I'm Feeling Lucky</button></td></tr>
+                        </tbody>
+                    </table>                    
+                </div>
+            </div>
+        </section>
+        <aside class="aside"><iframe id="aI" name="googleAppIframe"></iframe><iframe id="lI" name="googleSettingListIframe"></iframe></aside>
+        <footer class="footer">
+            <div class="fDiv1">
+                <span id="fMiddleLeft" style="color: #6F6F6F; font-size: 15px;">대한민국</span>
+            </div>
+            <div class="fDiv2">
+                <a id="fNoUL" target="_self" href="https://www.google.com/intl/ko_kr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"><span id="fMiddleLeft">광고</span></a>
+                <a id="fNoUL" target="_self" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"><span id="fMiddleLeft">비즈니스</span></a>
+                <a id="fNoUL" target="_self" herf="https://about.google/?utm_source=google-KR&utm_medium=referral&utm_campaign=hp-footer&fg=1"><span id="fMiddleLeft">Google 정보</span></a>
+                <a id="fNoUL" target="_self" href="https://google.com/search/howsearchworks/?fg=1"><span id="fMiddleLeft">검색의 원리</span></a>
+                <a id="fNoUL" target="_self" href="https://policies.google.com/privacy?fg=1"><span id="fMiddleRight">개인정보처리방침</span></a>
+                <a id="fNoUL" target="_self" href="https://policies.google.com/terms?fg=1"><span id="fMiddleRight">약관</span></a>
+                <a id="fNoUL" target="googleSettingListIframe" href="googleSettingList.html"><span id="fMiddleRight">설정</span></a>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\bin\Release\계산기 만들기.exe.config
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\bin\Release\계산기 만들기.exe
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\bin\Release\계산기 만들기.pdb
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\bin\Release\계산기 만들기.xml
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.vbprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\obj\Release\계산기_만들기.Form1.resources
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\obj\Release\계산기_만들기.Resources.resources
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.vbproj.GenerateResource.cache
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.vbproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.exe
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.xml
+C:\Users\user\source\repos\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.pdb
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\bin\Release\계산기 만들기.exe.config
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\bin\Release\계산기 만들기.exe
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\bin\Release\계산기 만들기.pdb
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\bin\Release\계산기 만들기.xml
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.vbprojResolveAssemblyReference.cache
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\obj\Release\계산기_만들기.Form1.resources
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\obj\Release\계산기_만들기.Resources.resources
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.vbproj.GenerateResource.cache
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.vbproj.CoreCompileInputs.cache
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.exe
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.xml
+E:\코딩\Visual Studio 2017\VB\계산기 만들기\계산기 만들기\obj\Release\계산기 만들기.pdb

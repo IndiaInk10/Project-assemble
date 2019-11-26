@@ -1,0 +1,119 @@
+html, body{margin: 0; padding: 0; height: 100%;}
+.header{
+    width: 100%; height: 5%; background: white;
+    text-align: right; font-size: 13px;
+}
+span#hMiddleRight{
+    position:relative; top: 13px; right: 20px;
+    margin-left: 20px;
+}
+a#hNoUL {color: black; text-decoration: none;}
+a#hNoUL:hover{color: #6F6F6F; text-decoration: underline;}
+.googleApp {
+    width: 24px; height: 24px;
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    background-image: url('googleApp.png');
+}
+.googleApp:hover{
+    background-image: url('googleApp_hover.png');
+}
+.header > span > button {
+    background: #4584EF; border: 0;
+    width: 65px; height: 31px; border-radius: 3px / 3px;
+    color: white;
+}
+.header > span > button:active {
+    background: rgb(61, 116, 211);
+}
+.section{width: 82%; height: 86%; float: left; background: white;}
+.logoAndSearch{
+    width: 600px; height: 500px;
+    position: relative;
+    top: 115px;
+    left: 815px;
+}
+div#search{
+    position: relative;
+    left: -150px;
+    width: 600px; height: 40px;
+    border: 1px solid #DFE1E5;
+    border-radius: 20px / 20px;
+}
+div#search:hover{
+    box-shadow: 0px 0px 5px rgb(182, 182, 182);
+}
+div#GMG{
+    max-width: 40px; max-height: 25px; overflow:hidden;
+    position: relative;
+    top: -14px; left: 7px;
+}
+input#sSearch{
+    width: 480px; height: 30px;
+    font-size: 15px;
+    position: relative;
+    top: 1px;
+}
+input{
+    border: none;
+    position: relative;
+    top: 5px; left: -103px;
+}
+input:focus{
+    outline: none;
+}
+button#bButton{
+    width: 110px; height: 35px;
+    background-color: #F3F3F3; color: #5F6368;
+    border: 1px solid #F3F3F3; border-radius: 3px / 3px;
+}
+button#bButton:hover{
+    background-color: #F3F3F3; color: black;
+    border-color: rgb(124, 124, 124);
+}
+button#bButton:active{
+    border-color: #F3F3F3;
+}
+div#insert{
+    position: relative;
+    top: -16px; left: -100px;
+}
+div#voice{
+    position: relative;
+    top: -14px; left: -90px;
+}
+.aside{width: 18%; height: 86%; float: right; background: white;}
+iframe#aI {
+    width: 290px; height: 510px; border: none;
+    float: right; position: relative;
+    top: 3px; right: 11px;
+}
+iframe#lI {
+    width: 290px; height: 370px; border: none;
+    float: right; position: relative;
+    bottom: -15px; right: 24px;
+}
+.footer{width: 100%; height: 9%; clear: both; background:#F2F2F2;}
+.fDiv1 {
+    width: 100%; height: 49%;
+    border-style: solid; border-width: 0.5px 0px 0px 0px;
+    border-color: #E4E4E4;
+}
+span#fMiddleLeft{
+    position: relative; top: 10px; left: 20px;
+    margin-left: 5px; margin-right: 15px;
+}
+.fDiv2 {
+    width: 100%; height: 49%;
+    border-style: solid; border-width: 0.5px 0px 0px 0px;
+    border-color: #E4E4E4;
+    color: #6F6F6F; font-size: 13px;
+}
+span#fMiddleRight{
+    position:relative; top: 10px; left: 1365px;
+    margin-right: 20px;
+}
+a#fNoUL {color: #6F6F6F; text-decoration: none;}
+a#fNoUL:hover{color: #6F6F6F; text-decoration: underline;}
+a#fNoUL:active{color: red;}

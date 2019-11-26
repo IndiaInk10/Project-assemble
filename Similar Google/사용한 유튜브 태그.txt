@@ -1,0 +1,10 @@
+ps=blogger // 로고 제거, 우클 메뉴 제거
+showinfo=0 // 상단 정보바 제거
+controls=0 // 하단 컨트롤바 제거
+cc_load_policy=0 // 자막 제거
+iv_load_policy=3 // 영상 위에 뜨는 홍보영상 제거
+rel=0 // 영상종료 후 관련 영상 제거
+autoplay=1 // 자동시작
+fs=0 // 풀스크린 버튼 없애기
+mute=1 // 음소거
+loop=1 // 반복재생

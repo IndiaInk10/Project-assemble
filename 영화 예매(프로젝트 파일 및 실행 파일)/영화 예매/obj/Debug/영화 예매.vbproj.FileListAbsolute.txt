@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\영화 예매\영화 예매\bin\Debug\영화 예매.exe.config
+C:\Users\user\source\repos\영화 예매\영화 예매\bin\Debug\영화 예매.exe
+C:\Users\user\source\repos\영화 예매\영화 예매\bin\Debug\영화 예매.pdb
+C:\Users\user\source\repos\영화 예매\영화 예매\bin\Debug\영화 예매.xml
+C:\Users\user\source\repos\영화 예매\영화 예매\obj\Debug\영화_예매.Form1.resources
+C:\Users\user\source\repos\영화 예매\영화 예매\obj\Debug\영화_예매.Resources.resources
+C:\Users\user\source\repos\영화 예매\영화 예매\obj\Debug\영화 예매.vbproj.GenerateResource.cache
+C:\Users\user\source\repos\영화 예매\영화 예매\obj\Debug\영화 예매.vbproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\영화 예매\영화 예매\obj\Debug\영화 예매.exe
+C:\Users\user\source\repos\영화 예매\영화 예매\obj\Debug\영화 예매.xml
+C:\Users\user\source\repos\영화 예매\영화 예매\obj\Debug\영화 예매.pdb

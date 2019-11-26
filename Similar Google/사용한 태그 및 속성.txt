@@ -1,0 +1,16 @@
+셀렉터를 이용할 때 주로 class를 먼저 잡고 해당 아래 태그 들은 id를 통해 관리
+
+@import 속성을 통해 css 파일을 가져옴
+
+-스타일 태그의 속성
+
+text-align // 텍스트 정렬
+position // 배치 설정 static: 디폴트, relative: 상대 배치, absolute: 절대 배치,
+fixed: 고정 배치
+flow // 정렬
+overflow // 설정 창 이상의 범위를 어떻게 처리할 것 인가
+margin // 여백 설정
+display: inline-block // 인라인 블록을 통해 인라인에서 설정값을 자유자재로 설정
+box-shadow // 그림자 효과 부여 상하, 좌우, 그림자 범위, 색
+border-radius // 테두리 둥글게 설정
+ul 스타일 속성 list-style:none; // 점 표시 제거
