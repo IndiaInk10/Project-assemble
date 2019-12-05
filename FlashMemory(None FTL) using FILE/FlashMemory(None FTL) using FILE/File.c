@@ -16,12 +16,11 @@ char* flashMemoryRead(FILE *FlashMemory, int PSN)
 {
 	fopen_s(&FlashMemory, "FlashMemory.txt", "r+t");
 
-	PSN *= SECTORSIZE; // 섹터의 용량 만큼을 곱해줘 섹터의 시작 위치를 찾는다
-
-	fseek(FlashMemory, PSN, SEEK_SET);
+	PSN = (--PSN) * SECTORSIZE; // 섹터의 용량 만큼을 곱해줘 섹터의 시작 위치를 찾는다
 	
-	if (ftell(FlashMemory) <= fSize) // 파일의 범위 안 = 섹터가 존재한다
+	if (PSN <= fSize && PSN >= 0) // 파일의 범위 안 = 섹터가 존재한다
 	{
+		fseek(FlashMemory, PSN, SEEK_SET);
 		fscanf_s(FlashMemory, "%s", &data, sizeof(data));
 		fclose(FlashMemory);
 
@@ -44,7 +43,7 @@ void flashMemoryWrite(FILE *FlashMemory, int PSN, char data)
 	{
 		if (strcmp(&SectorData[509], "0") == 0) // 초기화 값으로 설정되어 있다.
 		{
-			PSN *= SECTORSIZE;
+			PSN = (--PSN) * SECTORSIZE;
 			fseek(FlashMemory, PSN, SEEK_SET);
 			fprintf(FlashMemory, "%0510c\n", data);
 			fclose(FlashMemory);
@@ -68,15 +67,14 @@ void flashMemoryErase(FILE *FlashMemory, int PBN)
 {
 	fopen_s(&FlashMemory, "FlashMemory.txt", "r+t");
 
-	PBN *= BLOCKSIZE; //  블럭 용량 만큼을 곱해줘 블럭의 시작 위치를 찾는다
+	PBN = (--PBN) * BLOCKSIZE; //  블럭 용량 만큼을 곱해줘 블럭의 시작 위치를 찾는다
 
-	fseek(FlashMemory, PBN, SEEK_SET);
-
-	if (ftell(FlashMemory) <= fSize) // 파일의 범위 안 = 블럭이 존재한다
+	if (PBN <= fSize && PBN >= 0) // 파일의 범위 안 = 블럭이 존재한다
 	{
+		fseek(FlashMemory, PBN, SEEK_SET);
 		for (int i = 0; i < SECTORSIZE_BLOCK; i++)
 		{
-			fprintf(FlashMemory, "%0510c\n", '0');
+			fprintf(FlashMemory, "%0510c\n", '0'); 
 		}
 		printf("%dth block erase\n", PBN/BLOCKSIZE);
 		fclose(FlashMemory);
