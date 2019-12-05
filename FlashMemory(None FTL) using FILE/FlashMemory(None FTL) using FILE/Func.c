@@ -12,7 +12,7 @@ void getCommand(FILE *file) // get command
 	bool bInit = false;
 
 	char *context;
-	char *tok[2];
+	char *tok[3];
 
 	while (1)
 	{
